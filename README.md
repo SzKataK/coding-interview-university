@@ -1,26 +1,6 @@
 # Coding Interview University
 
-> You won't need to study as much as I did. I wasted a lot of time on things I didn't need to know. More info about that is below. I'll help you get there without wasting your precious time.
->
-> The items listed here will prepare you well for a technical interview at just about any software company,
-> including the giants: Amazon, Facebook, Google, and Microsoft.
->
-> *Best of luck to you!*
-
-## What is it?
-
-This is my multi-month study plan for becoming a software engineer for a large company.
-
-**Required:**
-* A little experience with coding (variables, loops, methods/functions, etc)
-* Patience
-* Time
-
-Note this is a study plan for **software engineering**, not frontend engineering or full-stack development. There are really
-super roadmaps and coursework for those career paths elsewhere (see https://roadmap.sh/ for more info).
-
-There is a lot to learn in a university Computer Science program, but only knowing about 75% is good enough for an interview, so that's what I cover here.
-For a complete CS self-taught program, the resources for my study plan have been included in Kamran Ahmed's Computer Science Roadmap: https://roadmap.sh/computer-science
+Kamran Ahmed's Computer Science Roadmap: https://roadmap.sh/computer-science
 
 ---
 
@@ -45,7 +25,6 @@ For a complete CS self-taught program, the resources for my study plan have been
 ### Topics of Study
 
 - [Coding Interview University](#coding-interview-university)
-  - [What is it?](#what-is-it)
   - [Table of Contents](#table-of-contents)
     - [The Study Plan](#the-study-plan)
     - [Topics of Study](#topics-of-study)
@@ -64,9 +43,6 @@ For a complete CS self-taught program, the resources for my study plan have been
     - [2. Use Flashcards](#2-use-flashcards)
     - [3. Do Coding Interview Questions While You're Learning](#3-do-coding-interview-questions-while-youre-learning)
     - [4. Focus](#4-focus)
-  - [What you won't see covered](#what-you-wont-see-covered)
-  - [The Daily Plan](#the-daily-plan)
-  - [Coding Question Practice](#coding-question-practice)
   - [Coding Problems](#coding-problems)
   - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
   - [Data Structures](#data-structures)
@@ -105,7 +81,6 @@ For a complete CS self-taught program, the resources for my study plan have been
 ### Optional Extra Topics & Resources
 
 - [Coding Interview University](#coding-interview-university)
-  - [What is it?](#what-is-it)
   - [Table of Contents](#table-of-contents)
     - [The Study Plan](#the-study-plan)
     - [Topics of Study](#topics-of-study)
@@ -124,9 +99,6 @@ For a complete CS self-taught program, the resources for my study plan have been
     - [2. Use Flashcards](#2-use-flashcards)
     - [3. Do Coding Interview Questions While You're Learning](#3-do-coding-interview-questions-while-youre-learning)
     - [4. Focus](#4-focus)
-  - [What you won't see covered](#what-you-wont-see-covered)
-  - [The Daily Plan](#the-daily-plan)
-  - [Coding Question Practice](#coding-question-practice)
   - [Coding Problems](#coding-problems)
   - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
   - [Data Structures](#data-structures)
@@ -232,14 +204,7 @@ Choose one:
 
 ## Don't Make My Mistakes
 
-This list grew over many months, and yes, it got out of hand.
-
-Here are some mistakes I made so you'll have a better experience. And you'll save months of time.
-
 ### 1. You Won't Remember it All
-
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards, so I could review. I didn't need all of that knowledge.
 
 Please, read so you won't make my mistakes:
 
@@ -247,33 +212,11 @@ Please, read so you won't make my mistakes:
 
 ### 2. Use Flashcards
 
-To solve the problem, I made a little flashcard site where I could add flashcards of 2 types: general and code.
-Each card has a different formatting. I made a mobile-first website, so I could review on my phone or tablet, wherever I am.
-
-Make your own for free:
-
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-
-**I DON'T RECOMMEND using my flashcards.** There are too many and most of them are trivia that you don't need.
-
-But if you don't want to listen to me, here you go:
-- [My flash cards database (1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
-- [My flash cards database (extreme - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
-
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics.
-It's way too much for what's required.
+[Anki](http://ankisrs.net/)
 
 **Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
 same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
 your brain.
-
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times.
-It uses a repetition system to help you remember. It's user-friendly, available on all platforms, and has a cloud sync system.
-It costs $25 on iOS but is free on other platforms.
-
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya)).
-
-Some students have mentioned formatting issues with white space that can be fixed by doing the following: open the deck, edit the card, click cards, select the "styling" radio button, and add the member "white-space: pre;" to the card class.
 
 ### 3. Do Coding Interview Questions While You're Learning
 
@@ -300,62 +243,6 @@ There are many resources for this, listed below. Keep going.
 
 There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music
 without lyrics and you'll be able to focus pretty well.
-
-**[⬆ back to top](#table-of-contents)**
-
-## What you won't see covered
-
-These are prevalent technologies but not part of this study plan:
-
-- Javascript
-- HTML, CSS, and other front-end technologies
-- SQL
-
-**[⬆ back to top](#table-of-contents)**
-
-## The Daily Plan
-
-This course goes over a lot of subjects. Each will probably take you a few days, or maybe even a week or more. It depends on your schedule.
-
-Each day, take the next subject in the list, watch some videos about that subject, and then write an implementation
-of that data structure or algorithm in the language you chose for this course.
-
-You can see my code here:
- - [C](https://github.com/jwasham/practice-c)
- - [C++](https://github.com/jwasham/practice-cpp)
- - [Python](https://github.com/jwasham/practice-python)
-
-You don't need to memorize every algorithm. You just need to be able to understand it enough to be able to write your own implementation.
-
-**[⬆ back to top](#table-of-contents)**
-
-## Coding Question Practice
-
-    Why is this here? I'm not ready to interview.
-
-[Then go back and read this.](#3-do-coding-interview-questions-while-youre-learning)
-
-Why you need to practice doing programming problems:
-- Problem recognition, and where the right data structures and algorithms fit in
-- Gathering requirements for the problem
-- Talking your way through the problem like you will in the interview
-- Coding on a whiteboard or paper, not a computer
-- Coming up with time and space complexity for your solutions (see Big-O below)
-- Testing your solutions
-
-There is a great intro for methodical, communicative problem-solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
-[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
-
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then type it and test it out on a computer.
-
-If you don't have a whiteboard at home, pick up a large drawing pad from an art store. You can sit on the couch and practice.
-This is my "sofa whiteboard". I added the pen in the photo just for scale. If you use a pen, you'll wish you could erase.
-Gets messy quickly. **I use a pencil and eraser.**
-
-![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
-
-**Coding question practice is not about memorizing answers to programming problems.**
 
 **[⬆ back to top](#table-of-contents)**
 
